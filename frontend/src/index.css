@@ -1,0 +1,33 @@
+:root {
+  --saffron: #E8681A;
+  --saffron-light: #F5A05A;
+  --saffron-dark: #C04F0F;
+  --ink: #1A1209;
+  --parchment: #FBF5E8;
+  --parchment-dark: #EDE4CC;
+  --olive: #5C6B2E;
+  --olive-light: #8A9D45;
+  --cream: #F7F0DC;
+  --red-baki: #B82A2A;
+  --green-paid: #2A7A3B;
+  --border: #C8B896;
+  --shadow: rgba(26,18,9,0.12);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body {
+  background: var(--parchment);
+  color: var(--ink);
+  font-family: 'Tiro Devanagari Marathi', 'Noto Sans Devanagari', serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--parchment-dark); }
+::-webkit-scrollbar-thumb { background: var(--saffron-light); border-radius: 3px; }
+
+.mono { font-family: 'DM Mono', monospace; }
+.serif { font-family: 'Crimson Pro', serif; }
